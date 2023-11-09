@@ -1,0 +1,17 @@
+appName: flightspath-api
+logging:
+  level: debug
+api:
+  port: 8080
+  cors:
+    allowedOrigins: [ "*" ]
+    allowedMethods: [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    allowedHeaders: [ "Accept", "Authorization", "Content-Type", "X-CSRF-Token" ]
+    exposedHeaders: [ ]
+    allowCredentials: true
+    maxAge: 300
+db:
+  dsn: sqlite.db
+nft:
+  provider: wss://sepolia.infura.io/ws/v3/2b31afcc37ba456e9551b55bf558c2c8
+  contract_address: 0xcf23b9C1a4B7351D965195c32B84c4f9412a3248

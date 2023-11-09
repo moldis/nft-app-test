@@ -1,0 +1,24 @@
+version: '3.9'
+services:
+  # TODO wss ETH not supports unsigned containers, hence it will fail
+  # HTTPS ETH do not support events, hence it will not work as well.
+  #api:
+  #  build:
+  #    context: .
+  #    dockerfile: infra/local/app/Dockerfile
+  #    target: api
+  #  command: server -c /conf/config.yaml
+  #  restart: unless-stopped
+  #  volumes:
+  #    - ./config.yaml:/conf/config.yaml
+  #  ports:
+  #    - "8080:8080"
+  client:
+    image: nginx
+    ports:
+      - 8000:80
+    volumes:
+      - ./web:/usr/share/nginx/html
+volumes:
+  feeds-ch-volume:
+    driver: local
