@@ -20,8 +20,6 @@ Mints a new NFT with specified collection address (only created on 3.a), tokenId
 
 Video: https://youtu.be/hKWqgVXSd-8
 
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=hKWqgVXSd-8)
-
 `/contract` - include smart-contract codes with hardhat deployment
 
 `/pkg` - golang code for backend and listening emited events
@@ -92,6 +90,6 @@ API Endpoints:
 
 ## TODO
 
-Project is not perfect and need some cleaning, specially for smart-contracts and enabling wss in Docker containers.
-
 There is no unit-test/integration tests for API layer.
+
+Web UI is too simple, just for testing purpose.
