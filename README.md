@@ -18,7 +18,9 @@ Mints a new NFT with specified collection address (only created on 3.a), tokenId
 
 ## Project Structure
 
-![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/hKWqgVXSd-8)
+Video: https://youtu.be/hKWqgVXSd-8
+
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=hKWqgVXSd-8)
 
 `/contract` - include smart-contract codes with hardhat deployment
 
